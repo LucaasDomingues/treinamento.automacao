@@ -6,7 +6,7 @@ import org.junit.Test;
 import pages.AdressConfirmPage;
 import pages.InitialPage;
 import pages.PaymentPage;
-//import pages.PaymentPage;
+
 
 
 public class CT001 extends BaseTest {
@@ -36,7 +36,7 @@ public class CT001 extends BaseTest {
     initialPage.clickConcluded();
     initialPage.scrollCreateBtn();
     initialPage.clickInput();
-    initialPage.inserirEmail("lbdeveris@gmail.com");
+    initialPage.inserirEmail("lbdever@gmail.com");
     initialPage.clickCreateAcountBtn();
    
     initialPage.clickSexo();
